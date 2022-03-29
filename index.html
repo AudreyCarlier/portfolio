@@ -6,21 +6,28 @@
         <meta name="description" content="Portfolio d'Audrey Chenu, développeuse web full stack disponible dans l'Oise et la région parisienne. Découvrez mon parcours et mon CV." />
         <title>Audrey Chenu | Développeuse web - Portfolio</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/portfolio/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/portfolio/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/portfolio/favicon-16x16.png">
+        <link rel="manifest" href="/assets/img/portfolio/site.webmanifest">
+        <!-- Font Awesome icons-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- CSS file-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Audrey Chenu</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
@@ -33,45 +40,49 @@
                 </div>
             </div>
         </nav>
+
+
         <!-- Masthead-->
-        <header class="masthead text-white text-center">
+        <header class="masthead text-white text-center" >
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataraudreychenu.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">AUDREY CHENU</h1>
-                <!-- Icon Divider-->
+                <!--Avatar-->
+                <img class="masthead-avatar mb-5 animate__animated animate__fadeInUp " src="assets/img/portfolio/avataraudreychenu.svg" alt="..." />
+                <!-- Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0 animate__animated animate__fadeInUp">AUDREY CHENU</h1>
+                <!-- Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Masthead Subheading-->
+                <!--Subheading-->
                 <p class="masthead-subheading font-weight-light mb-0">Développeuse web full stack</p>
             </div>
         </header>
+
+
         
         <!-- About Section-->
-        <section class="page-section mb-0" id="about">
+        <section class="page-section mb-0" id="about" data-aos="fade-up">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase">A propos de moi</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Le web fait partie de mon parcours personnel et professionnel depuis mon plus jeune âge. <br>Issue d'une formation axée sur la commercialisation des produits touristiques en ligne, je souhaite désormais passer à la vitesse supérieure en devenant <strong>Développeuse web Full Stack.</strong>  </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Actuellement en formation <strong>Développeur Web et Web Mobile (niveau Bac + 2)</strong>, je compte poursuivre mon parcours de formation en alternance avec O'clock. Je suis à la recherche d'un <strong>contrat de professionalisation débutant le 13 juin 2022 pour 16 mois</strong>. Cette nouvelle formation prépare au Titre Professionnel <strong>"Concepteur Développeur d'Applications" (niveau Bac+ 3 / Bac + 4).</strong></p></div>
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-10 "><p class="lead">Le web fait partie de mon parcours personnel et professionnel depuis mon plus jeune âge.<br> <br>Issue d'une formation axée sur la commercialisation des produits touristiques en ligne, je souhaite désormais passer à la vitesse supérieure en devenant <strong>Développeuse web Full Stack.</strong> 
+                        <br> <br>Actuellement en formation <strong>Développeur Web et Web Mobile (niveau Bac + 2)</strong>, je compte poursuivre mon parcours de formation en alternance avec l'école <a href="https://oclock.io/" target="blank">O'clock</a>. <br><br> Je suis à la recherche d'un <strong>contrat de professionalisation débutant le 13 juin 2022 pour 16 mois</strong>. Cette nouvelle formation prépare au Titre Professionnel <strong>"Concepteur Développeur d'Applications" (niveau Bac+ 3 / Bac + 4).</strong></p></div>
                 </div>
                 <!-- About Section Button-->
 
                 <div class="btn-group col-lg-6 col-md-12  mx-auto d-flex justify-content-center align-items-center" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-secondary">Télécharger mon CV</button>
-                    <button type="button" class="btn btn-info">Voir mon profil Linkedin</button>
+                    <a href="/assets/CV Audrey CHENU - Développeur web.pdf" type="button" class="btn btn-primary" download>Télécharger mon CV</button>
+                    <a href="https://www.linkedin.com/in/audreychenu/" type="button" class="btn btn-secondary" target="blank">Voir mon profil Linkedin</a>
                  
                   </div>
           </div>
@@ -79,13 +90,17 @@
 
 </div>
         </section>
+
+
+
+
         <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
+        <section class="page-section portfolio" id="portfolio" >
+            <div class="container" data-aos="fade-up">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-light ">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
@@ -98,7 +113,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/TakeMaquettePart.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/TakeMaquettePart.jpg" alt="..." />
                             <p class="h5 text-center text-white p-4">Intégration de maquette</p>
                         </div>
                     </div>
@@ -108,7 +123,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Japon365.png" alt="Capture du site Japon365.fr" />
+                            <img class="img-fluid" src="assets/img/portfolio/Japon365.jpg" alt="Capture du site Japon365.fr" />
                             <p class="h5 text-center text-white p-4">Site Wordpress</p>
                         </div>
                     </div>
@@ -118,16 +133,22 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/todoapp.jpg" alt="..." />
+                            <p class="h5 text-center text-white p-4">To do app Angular</p>
                         </div>
                     </div>
             
                 </div>
             </div>
+            <div><p class="text-white text-center" id="projets">Projets en cours : site e-commerce en PHP, générateur d'activités avec Javascript.</p></div>
         </section>
+
+
+
+
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container ">
+        <section class="page-section " id="contact" >
+            <div class="container "data-aos="fade-up">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactez-moi</h2>
                 <!-- Icon Divider-->
@@ -138,10 +159,7 @@
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
-                    <div class="col-md-12 col-lg-6 col-xl-5 m-5 shadow p-5 mb-5 bg-light rounded">
-                      <i class="fa-solid p-5 fa-envelope fa-2xl text-dark"></i> <p class="d-inline">chenuaudrey@gmail.com</p>
-                    </div>
-                    <div class="col-lg-6 col-xl-5">
+                    <div class="col-md-12 col-lg-8 col-xl-7">
                         <form method="post" id="contactForm" role="form" enctype="multipart/form-data" >
                             <div class="messages"></div>
                             <!-- Name input-->
@@ -166,7 +184,7 @@
                                 <label for="message">Message</label>
 
                             </div>
-                            <input type="submit" value="envoi" value="envoi" id="submit">
+                            <input type="button" class="btn btn-primary" value="Envoyer" id="submit">
                             <div class="status"></div>
                         </form>
 
@@ -175,28 +193,44 @@
             </div>
 
         </section>
+        
+        
+        
+        
+        
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
-                    <!-- Footer Location-->
+
+
+                    <!-- Footer 1-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                       
                     </div>
-                    <!-- Footer Social Icons-->
+
+
+                    <!-- Footer 2-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Liens</h4>
                 
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/yunafr_" ><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/audreychenu/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/audreychenu/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/AudreyChenu" target="_blank"><i class="fab fa-fw fa-github"></i></a>
                     </div>
-                    <!-- Footer About Text-->
+
+
+                    <!-- Footer 3-->
                     <div class="col-lg-4">
           
                     </div>
                 </div>
             </div>
         </footer>
+
+
+
+
+
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Audreychenu.com 2022</small></div>
@@ -222,13 +256,14 @@
                                      <!-- Portfolio Modal - Text-->
                                      <p class="mb-4">Création d'une landing page responsive en HTML et CSS, réalisée à partir d'une maquette sous forme de fichier PSD obtenu <a href="https://blazrobar.com/free-psd-website-templates/take-a-free-mobile-app-landing-page-psd-template/">sur ce site.</a>
                                     </p>
-                                     <a class="btn btn-primary my-2" href="http://maquette.audreychenu.com/" role="button" target="blank">Voir le projet</a>
+                                     <a class="btn btn-primary my-2" href="http://maquette.audreychenu.com/" role="button" target="_blank">Voir le projet en live</a>
+                                     <a class="btn btn-primary my-2" href="https://github.com/AudreyChenu/Take-Integration_Maquette" role="button" target="_blank">Voir sur GitHub</a>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TakeMaquette.png" alt="Maquette HTML/CSS" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TakeMaquette.jpg" alt="Maquette HTML/CSS" />
                                    
-                                    <button class="btn btn-outline-danger" href="#!" data-bs-dismiss="modal">
+                                    <button class="btn btn-outline-danger" href="" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
-                                        Close Window
+                                        Fermer la fenêtre
                                     </button>
                                 </div>
                             </div>
@@ -257,9 +292,9 @@
 
                                       <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Site web réalisé avec <strong>Wordpress</strong> à l'occasion d'un long séjour de deux ans au Japon.</p>
-                                    <a class="btn btn-primary my-2" href="https://japon365.fr" role="button" target="blank">Voir le site</a>
+                                    <a class="btn btn-primary my-2" href="https://japon365.fr" role="button" target="_blank">Voir le site</a>
                                      <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Japon365.png" alt="Capture du site Japon365.fr" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Japon365.jpg" alt="Capture du site Japon365.fr" />
                                  
                                     
                                   
@@ -284,20 +319,24 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">To do app Angular</h2>
+
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
+                                    <p class="mb-4">Réalisation d'une To Do App simple via le framework Angular </p>
+                                    <a class="btn btn-primary my-2" href="https://todoapp.audreychenu.com" role="button" target="_blank">Voir le projet en live</a>
+                                    <a class="btn btn-primary my-2" href="https://github.com/AudreyChenu/todoapp" role="button" target="_blank">Voir sur GitHub</a>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/todoapp.jpg" alt="To do app" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                  
+                                    <button class="btn btn-outline-danger" href="" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
-                                        Close Window
+                                        Fermer la fenêtre
                                     </button>
                                 </div>
                             </div>
@@ -306,108 +345,17 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+
+      
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/c9fea804b8.js" crossorigin="anonymous"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+    AOS.init({disable: 'mobile'});
+          </script>
 
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
